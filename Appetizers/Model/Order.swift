@@ -19,8 +19,8 @@ final class Order: ObservableObject {
     func add(_ appetizer: Appetizer) {
         items.append(appetizer)
     }
-    func deleteItems(at offesets: IndexSet) {
-        items.remove(atOffsets: offesets)
+    func deleteItems(at offsets: IndexSet) {
+        items.remove(atOffsets: offsets)
     }
 }
 
